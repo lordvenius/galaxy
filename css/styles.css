@@ -144,8 +144,11 @@ body {
 
 
 
-a {
+.main-nav>a {
     color: grey;
+    text-decoration: none;
+    font-size: 200%;
+
 }
 
 
@@ -225,6 +228,11 @@ a {
     top: 20px;
 }
 
+/*
+.planet-2-div button {
+    align-items: center;
+}*/
+
 .planet-2-div img {
     margin-top: -30px;
 }
@@ -246,7 +254,10 @@ a {
 
 .planet-2-text {
     width: 45%;
+    margin: 0 auto;
     margin-top: -45px;
+
+
 }
 
 .planet-div {
@@ -276,4 +287,35 @@ a {
     align-items: center;
     color: white;
     margin-top: 100px;
+}
+
+.planet-div:hover {
+    transform: scale(1.5);
+}
+
+.planet-div button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.planet-div button:active {
+    border: none;
+    transform: scale(0.9);
+
+}
+
+.planet-div button:focus {
+    outline: 0;
+    border: 4px dashed yellow;
+
+}
+
+.planet-2-test img {
+    overflow: visible;
+    transform: scale(2.3);
+    margin-top: 30px;
+}
+
+.planet-2-test .planet-text {
+    margin-top: 65px;
 }
